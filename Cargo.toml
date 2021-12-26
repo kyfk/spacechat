@@ -1,0 +1,6 @@
+[workspace]
+members = [
+	"spacechat-agent",
+	"spacechat-passport",
+	"spacechat-ui",
+]

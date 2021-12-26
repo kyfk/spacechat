@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "rustproto.proto";
+
+option (rustproto.serde_derive_all) = true;
+
+message PostRoomMessageRequest {
+  string text = 1;
+}
+
+message PostRoomJoinRequest {
+  string topic = 1;
+}
+
